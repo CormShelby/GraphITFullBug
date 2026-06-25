@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1782361639
+::res://::1782362489
 AnimationPlayer.gd::GDScript::-1::1747829161::0::1::::<>AnimationPlayer<>::
 AudioStreamPlayer3D.gd::GDScript::-1::1747829161::0::1::::<>AudioStreamPlayer3D<>::
 Camera3D.gd::GDScript::-1::1747829161::0::1::::<>Camera3D<>::
@@ -11,9 +11,9 @@ first_scene.gd::GDScript::-1::1747829161::0::1::::<>Node3D<>::
 first_scene.tscn::PackedScene::2518055720633974666::1747829161::0::1::::<><>::res://first_scene.gd<>res://Camera3D.gd<>uid://bctfyyjdav2c5
 icon.svg::CompressedTexture2D::5837026493920314342::1747829161::1747829230::1::::<><>::
 level_2.gd::GDScript::-1::1747829161::0::1::::<>Node3D<>::
-level_2.tscn::PackedScene::5478558634173297939::1747829161::0::1::::<><>::uid://dpglncqs0v57g
+level_2.tscn::PackedScene::5478558634173297939::1782361711::0::1::::<><>::uid://dpglncqs0v57g::::res://blender/FINSOIREE05V2.glb<>res://level_2.gd<>res://Player1.gd<>res://Camera3D.gd<>uid://cjbdleawncpoy::::res://blender/PaintsprayVF_GRAPHSEX.png<>uid://bctfyyjdav2c5::::res://image/image-removebg-preview (13).png<>uid://de3wd384xifs2::::res://Untitled video - Made with Clipchamp (5).mp3<>res://AudioStreamPlayer3D.gd
 Menu.gd::GDScript::-1::1747829161::0::1::::<>Control<>::
-menu.tscn::PackedScene::8395733505919943466::1782361555::0::1::::<><>::res://Menu.gd<>uid://bwgpd2glbokhl::::res://urban_graffiti/Urban Graffiti PERSONAL USE ONLY.ttf<>uid://drey544esns3l::::res://blender/GRAFFIT.png
+menu.tscn::PackedScene::8395733505919943466::1782361711::0::1::::<><>::res://Menu.gd<>uid://bwgpd2glbokhl::::res://urban_graffiti/Urban Graffiti PERSONAL USE ONLY.ttf<>uid://drey544esns3l::::res://blender/GRAFFIT.png
 MeshInstance3D.gd::GDScript::-1::1747829161::0::1::::<>MeshInstance3D<>::
 peinture.tscn::PackedScene::5529259643591283066::1747829161::0::1::::<><>::uid://dbkuh6bevmbvh
 Player1.gd::GDScript::-1::1747829161::0::1::::<>CharacterBody3D<>::

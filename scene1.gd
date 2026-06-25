@@ -1,6 +1,6 @@
 extends StaticBody3D
 # Force de repoussement
-var repel_force = 10.0
+var repel_force = 9.81
 
 # Détection de collision avec un autre corps
 func _on_body_entered(body):
