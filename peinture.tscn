@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://ck1odl4ioj26i"]
+
+[ext_resource type="Texture2D" uid="uid://dbkuh6bevmbvh" path="res://image/Non_a_la_69-removebg-preview.png" id="1_gtmcp"]
+[ext_resource type="Script" path="res://Sprite3D.gd" id="2_5fce2"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_y6jnb"]
+radius = 1.75
+
+[node name="Sprite3D" type="Sprite3D" groups=["sprite"]]
+transform = Transform3D(0.0111124, 0.414832, 0.0492763, 0.0893688, -0.0505132, 0.405093, 0.408078, -0.00023393, -0.0900568, -0.0636159, 0.48205, 0.198112)
+texture = ExtResource("1_gtmcp")
+script = ExtResource("2_5fce2")
+
+[node name="Area3D" type="Area3D" parent="." groups=["tag"]]
+transform = Transform3D(1, 0, -5.96046e-08, -4.47035e-08, 1, 7.45058e-09, 3.72529e-08, 0, 1, -0.0238469, 0.130155, 0.0139136)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, -2.98023e-08, -1.49012e-08, 1, -5.58794e-09, 7.45058e-09, 0, 1, 0, 0, 0)
+shape = SubResource("SphereShape3D_y6jnb")

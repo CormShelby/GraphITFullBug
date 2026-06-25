@@ -1,0 +1,31 @@
+[gd_scene load_steps=7 format=3 uid="uid://cuorp4crb6ytu"]
+
+[ext_resource type="Script" path="res://emote.gd" id="1_x2r7f"]
+[ext_resource type="Texture2D" uid="uid://mxrslp3ks8ka" path="res://image/ADA-LOVELACE-10-6-2024-removebg-preview.png" id="2_as8td"]
+[ext_resource type="Texture2D" uid="uid://govx8jnc1tuo" path="res://image/corm2.png" id="3_05cub"]
+[ext_resource type="Texture2D" uid="uid://cwndqa71jnh16" path="res://image/corm3.png" id="4_meryr"]
+[ext_resource type="Texture2D" uid="uid://cxwwehb3ehpd0" path="res://image/MaeletRaf.png" id="5_tehw4"]
+[ext_resource type="Texture2D" uid="uid://cn5sb55idotfc" path="res://image/gaston.png" id="6_rih51"]
+
+[node name="emote" type="Node3D" groups=["emote"]]
+script = ExtResource("1_x2r7f")
+
+[node name="Emote" type="Sprite3D" parent="."]
+transform = Transform3D(0.445225, -0.000270271, -0.000395903, 0.000407015, 0.0188894, 0.444824, -0.000253227, -0.444824, 0.0188896, 0, 0, 0)
+texture = ExtResource("2_as8td")
+
+[node name="Sprite3D2" type="Sprite3D" parent="."]
+transform = Transform3D(0.445224, -0.00027027, -0.000395901, 0.000407014, 0.0188894, 0.444824, -0.000253227, -0.444824, 0.0188896, 0.00432014, 0.0360242, -0.0215274)
+texture = ExtResource("3_05cub")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(0.445225, -0.00027027, -0.000395902, 0.000407015, 0.0188894, 0.444824, -0.000253227, -0.444824, 0.0188896, -2.18279e-11, 1.49012e-08, -0.0539266)
+texture = ExtResource("4_meryr")
+
+[node name="Sprite3D3" type="Sprite3D" parent="."]
+transform = Transform3D(0.445225, -0.00027027, -0.000395902, 0.000407015, 0.0188894, 0.444824, -0.000253227, -0.444824, 0.0188896, -0.124665, 0.016124, -0.0325285)
+texture = ExtResource("5_tehw4")
+
+[node name="Sprite3D4" type="Sprite3D" parent="."]
+transform = Transform3D(0.353553, 0.353553, 2.18557e-08, -1.54543e-08, -1.54543e-08, 0.5, 0.353553, -0.353553, 9.55343e-16, 0, 0, 0)
+texture = ExtResource("6_rih51")

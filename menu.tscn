@@ -1,0 +1,67 @@
+[gd_scene load_steps=4 format=3 uid="uid://dru7re4qvf0h7"]
+
+[ext_resource type="Script" path="res://Menu.gd" id="1_tvgf5"]
+[ext_resource type="FontFile" uid="uid://bwgpd2glbokhl" path="res://urban_graffiti/Urban Graffiti PERSONAL USE ONLY.ttf" id="2_kadj7"]
+[ext_resource type="Texture2D" uid="uid://drey544esns3l" path="res://blender/GRAFFIT.png" id="2_o4658"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 14.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tvgf5")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.037
+offset_left = 489.0
+offset_top = 1.0
+offset_right = -20.0
+offset_bottom = -5.19904
+texture = ExtResource("2_o4658")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.705
+anchor_right = 0.275
+anchor_bottom = 0.891
+offset_left = 9.0
+offset_top = -192.035
+offset_right = 39.45
+offset_bottom = 197.343
+grow_vertical = 0
+alignment = 1
+
+[node name="StartButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_kadj7")
+theme_override_font_sizes/font_size = 30
+text = "Play Game"
+
+[node name="Options" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_kadj7")
+text = "Settings"
+
+[node name="Quit Game" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_kadj7")
+theme_override_font_sizes/font_size = 20
+text = "Quit Game"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+volume_db = 16.0
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit Game" to="." method="_on_quit_game_pressed"]

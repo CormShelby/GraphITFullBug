@@ -1,0 +1,102 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4uakx6frwqxl"]
+
+[ext_resource type="Script" path="res://Control.gd" id="1_3ubgc"]
+[ext_resource type="FontFile" uid="uid://bwgpd2glbokhl" path="res://urban_graffiti/Urban Graffiti PERSONAL USE ONLY.ttf" id="2_1vcg4"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 10.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3ubgc")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.193
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = -0.064003
+offset_right = 17.0
+offset_bottom = 12.0
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_1vcg4")
+theme_override_font_sizes/font_size = 100
+text = "Avancer : Z"
+
+[node name="Label2" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_1vcg4")
+theme_override_font_sizes/font_size = 100
+text = "Gauche : Q"
+
+[node name="Label3" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_1vcg4")
+theme_override_font_sizes/font_size = 100
+text = "Droite : D"
+
+[node name="Label4" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_1vcg4")
+theme_override_font_sizes/font_size = 100
+text = "Descendre : S
+"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.499
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 56.152
+offset_top = 167.0
+offset_right = -28.0
+offset_bottom = 90.0
+
+[node name="Label2" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_1vcg4")
+theme_override_font_sizes/font_size = 70
+text = "Inspect : V et B"
+
+[node name="Label" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+
+[node name="Label3" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_1vcg4")
+theme_override_font_sizes/font_size = 50
+text = "Back to menu"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.25
+offset_right = 3.0
+offset_bottom = -47.0
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_1vcg4")
+theme_override_font_sizes/font_size = 130
+text = "        CONTROLES"
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer2/Button" to="." method="_on_button_pressed"]

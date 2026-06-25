@@ -1,0 +1,51 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1782361639
+AnimationPlayer.gd::GDScript::-1::1747829161::0::1::::<>AnimationPlayer<>::
+AudioStreamPlayer3D.gd::GDScript::-1::1747829161::0::1::::<>AudioStreamPlayer3D<>::
+Camera3D.gd::GDScript::-1::1747829161::0::1::::<>Camera3D<>::
+Control.gd::GDScript::-1::1747829161::0::1::::<>Control<>::
+control.tscn::PackedScene::4463203818393053689::1747829161::0::1::::<><>::res://Control.gd<>uid://bwgpd2glbokhl
+emote.gd::GDScript::-1::1747829161::0::1::::<>Node3D<>::
+emote.tscn::PackedScene::6206580031531038370::1747829161::0::1::::<><>::res://emote.gd<>uid://mxrslp3ks8ka
+first_scene.gd::GDScript::-1::1747829161::0::1::::<>Node3D<>::
+first_scene.tscn::PackedScene::2518055720633974666::1747829161::0::1::::<><>::res://first_scene.gd<>res://Camera3D.gd<>uid://bctfyyjdav2c5
+icon.svg::CompressedTexture2D::5837026493920314342::1747829161::1747829230::1::::<><>::
+level_2.gd::GDScript::-1::1747829161::0::1::::<>Node3D<>::
+level_2.tscn::PackedScene::5478558634173297939::1747829161::0::1::::<><>::uid://dpglncqs0v57g
+Menu.gd::GDScript::-1::1747829161::0::1::::<>Control<>::
+menu.tscn::PackedScene::8395733505919943466::1782361555::0::1::::<><>::res://Menu.gd<>uid://bwgpd2glbokhl::::res://urban_graffiti/Urban Graffiti PERSONAL USE ONLY.ttf<>uid://drey544esns3l::::res://blender/GRAFFIT.png
+MeshInstance3D.gd::GDScript::-1::1747829161::0::1::::<>MeshInstance3D<>::
+peinture.tscn::PackedScene::5529259643591283066::1747829161::0::1::::<><>::uid://dbkuh6bevmbvh
+Player1.gd::GDScript::-1::1747829161::0::1::::<>CharacterBody3D<>::
+Player.gd::GDScript::-1::1747829161::0::1::::<>RefCounted<>::
+scene1.gd::GDScript::-1::1747829161::0::1::::<>StaticBody3D<>::
+Sprite3D.gd::GDScript::-1::1747829161::0::1::::<>Sprite3D<>::
+StaticBody3D.gd::GDScript::-1::1747829161::0::1::::<>StaticBody3D<>::
+Untitled video - Made with Clipchamp (5).mp3::AudioStreamMP3::7499162656948716963::1747829161::1747829229::1::::<><>::
+::res://blender/::1747829231
+FINSOIREE05V2.glb::PackedScene::8225172205031020470::1747829161::1747829231::1::::<><>::
+GRAFFIT.png::CompressedTexture2D::8362242253768445523::1747829161::1747829230::1::::<><>::
+Newtes.glb::PackedScene::6041177057438752949::1747829161::1747829231::1::::<><>::
+Paintspray3ANIM.glb::PackedScene::5806736891984934842::1747829161::1747829230::1::::<><>::uid://c58jfg07e37lt
+Paintspray3ANIM_GRAPHSEX.png::CompressedTexture2D::6947186879536196969::1747829161::1747829230::1::::<><>::
+Paintspray.gd::GDScript::-1::1747829161::0::1::::<>Node3D<>::
+Paintspray.glb::PackedScene::6913526119867199475::1747829161::1747829230::1::::<><>::uid://bjsx028fieod3
+Paintsprayanim.gd::GDScript::-1::1747829161::0::1::::<>Node3D<>::
+Paintsprayanim.glb::PackedScene::5573331198101545213::1747829161::1747829230::1::::<><>::uid://b5gt37xxpkabp
+Paintsprayanim_GRAPHSEX.png::CompressedTexture2D::4505677601793490193::1747829161::1747829230::1::::<><>::
+PaintsprayVF.glb::PackedScene::4732220101679484139::1747829161::1747829230::1::::<><>::uid://cjbdleawncpoy
+PaintsprayVF_GRAPHSEX.png::CompressedTexture2D::5406807343704255312::1747829161::1747829230::1::::<><>::
+Paintspray_GRAPHSEX.png::CompressedTexture2D::3056721681036760506::1747829161::1747829230::1::::<><>::
+::res://image/::1747829230
+184377370-gracias-tag-graffiti-de-couleur-décoration-abstraite-d-art-de-rue-moderne-réalisée-dans-un-style-de.jpg::CompressedTexture2D::1360453375451639606::1747829161::1747829230::1::::<><>::
+ADA-LOVELACE-10-6-2024-removebg-preview.png::CompressedTexture2D::890811747382300488::1747829161::1747829230::1::::<><>::
+corm2.png::CompressedTexture2D::451352228261111762::1747829161::1747829230::1::::<><>::
+corm3.png::CompressedTexture2D::6344043612534078695::1747829161::1747829230::1::::<><>::
+gaston.png::CompressedTexture2D::5748323981378819224::1747829161::1747829230::1::::<><>::
+image-removebg-preview (13).png::CompressedTexture2D::2566369266914657558::1747829161::1747829230::1::::<><>::
+MaeletRaf.png::CompressedTexture2D::6433944369152829043::1747829161::1747829230::1::::<><>::
+Non_a_la_69-removebg-preview.png::CompressedTexture2D::7251323142649534021::1747829161::1747829230::1::::<><>::
+::res://Scene/::1747829231
+Level1V4.glb::PackedScene::5396182857338551236::1747829161::1747829231::1::::<><>::
+::res://urban_graffiti/::1747829229
+Urban Graffiti PERSONAL USE ONLY.ttf::FontFile::3943879050428352257::1747829162::1747829229::1::::<><>::
